@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">  <!-- Vertical pega do topo ate o fundo-->
+
+    <EditText
+        android:id="@+id/activity_formulario_aluno_nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="Digite o Nome"
+        android:inputType="textCapWords" />
+    <EditText
+        android:id="@+id/activity_formulario_aluno_telefone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="Digite o Telefone"
+        android:inputType="phone" />
+    <EditText
+        android:id="@+id/activity_formulario_aluno_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="Digite o Email"
+        android:inputType="textEmailAddress" />
+
+    <Button
+        android:id="@+id/activity_botao_formulario_aluno_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Adcionar Aluno"
+        android:layout_margin="10dp"/>
+
+
+
+</LinearLayout>
